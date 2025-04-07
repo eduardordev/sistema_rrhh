@@ -368,7 +368,7 @@ npm install
 npm run dev
 ```
 
-> El frontend se ejecutará normalmente en `http://localhost:5173` (si usas Vite) o en `http://localhost:3000` (si usas Create React App)
+> El frontend se ejecutará normalmente en `http://localhost:5173` (el frontend esta creado con Vite + React)
 
 ---
 
