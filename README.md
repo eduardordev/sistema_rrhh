@@ -318,3 +318,59 @@ CREATE TABLE colaborador_empresa (
 ```
 
 ---
+
+## ▶️ Cómo levantar el proyecto
+
+### 🖥 Backend (Node.js + Sequelize)
+
+1. Asegúrate de tener **XAMPP** corriendo con MySQL activo.
+2. Crea una base de datos desde phpMyAdmin (por ejemplo: `rrhh`).
+3. Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
+
+```
+DB_NAME=rrhh
+DB_USER=root
+DB_PASSWORD=
+DB_HOST=localhost
+PORT=3000
+```
+
+4. Instala las dependencias:
+```bash
+npm install
+```
+
+5. Ejecuta el servidor:
+```bash
+npm run dev
+```
+
+> El backend se ejecutará en: `http://localhost:3000`
+
+---
+
+### 🌐 Frontend (React)
+
+> Este paso es opcional si solo estás usando el backend.
+
+1. Navega a la carpeta del frontend:
+```bash
+cd frontend
+```
+
+2. Instala las dependencias:
+```bash
+npm install
+```
+
+3. Levanta el proyecto:
+```bash
+npm run dev
+```
+
+> El frontend se ejecutará normalmente en `http://localhost:5173` (si usas Vite) o en `http://localhost:3000` (si usas Create React App)
+
+---
+
+🔁 Asegúrate de que tanto el backend como el frontend estén corriendo al mismo tiempo para que la app funcione correctamente.
+
