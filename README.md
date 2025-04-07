@@ -51,6 +51,7 @@ await Empresa.findAll();
 - 🛠 Evita errores comunes en consultas SQL manuales.
 - ⚙️ Nos permite trabajar con múltiples bases de datos sin cambiar mucho código.
 
+---
 
 ## 🏗 Estructura del Proyecto
 
