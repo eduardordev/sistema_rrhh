@@ -208,18 +208,9 @@ POST /api/colaboradores
 
 ---
 
-## ✨ To-Do / Mejoras Futuras
-
-- Middleware de validación con Joi o Yup
-- Tests con Jest o Mocha
-- Swagger para documentación de endpoints
-- Autenticación JWT
-
----
-
 ## 🧑‍💻 Autor
 
-Desarrollado por el equipo de Recursos Humanos para facilitar la gestión de empresas y colaboradores.
+Desarrollado por Eduardo Ramirez.
 
 ---
 ---
