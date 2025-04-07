@@ -14,6 +14,44 @@ Este proyecto es una API REST construida con **Node.js**, **Express** y **Sequel
 
 ---
 
+## 🧠 ¿Qué es Sequelize y por qué lo utilice?
+
+### 🔍 ¿Qué es un ORM?
+
+ORM significa **Object-Relational Mapping** (Mapeo Objeto-Relacional). Es una técnica que permite trabajar con bases de datos relacionales usando objetos en lugar de consultas SQL directas.
+
+En lugar de escribir consultas SQL como:
+
+```sql
+SELECT * FROM empresa;
+```
+
+Podemos usar código JavaScript como:
+
+```js
+await Empresa.findAll();
+```
+
+---
+
+### ✅ ¿Por qué utilice Sequelize?
+
+**Sequelize** es un ORM popular para Node.js que nos permite:
+
+- Escribir menos SQL manual.
+- Definir modelos como clases en JavaScript.
+- Establecer relaciones entre tablas fácilmente (`hasMany`, `belongsTo`, etc.).
+- Mantener el código organizado, limpio y escalable.
+
+---
+
+### 🏁 Beneficios
+
+- 🔄 Traduce automáticamente entre objetos JS y registros en la base de datos.
+- 🛠 Evita errores comunes en consultas SQL manuales.
+- ⚙️ Nos permite trabajar con múltiples bases de datos sin cambiar mucho código.
+
+
 ## 🏗 Estructura del Proyecto
 
 ```
